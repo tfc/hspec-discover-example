@@ -12,3 +12,4 @@ test-suite unit-test
                      , hspec
   default-language:    Haskell2010
   ghc-options:         -Wall -Werror -fhide-source-paths
+  build-tool-depends:  hspec-discover:hspec-discover
